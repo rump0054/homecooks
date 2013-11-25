@@ -7,6 +7,7 @@ This app contains my default rails setup.  It contains these custom components:
 * Testing
 * Twitter Bootstrap 3
 * Application helper
+* Homepage set to app/views/pages/home using high_voltage gem
 
 Gemfile Setup
 -------------
