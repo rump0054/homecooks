@@ -13,7 +13,7 @@ gem 'haml-rails'
 gem 'simple_form'
 gem 'devise'
 gem 'bcrypt-ruby', git: 'https://github.com/codahale/bcrypt-ruby.git', :require => 'bcrypt'
-gem 'acts_as_relation', '~> 1.0'
+gem 'decent_exposure'
 
 group :doc do
   gem 'sdoc', require: false
@@ -26,6 +26,7 @@ group :development, :test do
 end
 
 group :development do
+  gem 'jazz_hands'
   gem 'better_errors'
   gem 'quiet_assets'
 end
