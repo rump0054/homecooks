@@ -53,5 +53,5 @@ Application Helper
 ------------------
 Custom application helpers added
 
-*full_title - returns a full title based on a per-page basis
-*nice-date-form - returns a human date like Jan 01, 2013 when given a model timestamp (method uses _ not -)
+* full_title - returns a full title based on a per-page basis
+* nice_date_form - returns a human date like Jan 01, 2013 when given a model timestamp
