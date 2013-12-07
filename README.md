@@ -20,12 +20,14 @@ For all environments:
 * simple_form
 * devise
 * bcrypt-ruby (via git repository)
+* decent_exposure
 
-For test and development:
+For test and/or development:
 * rspec
 * spork
 * capybara
 * factory_girl
+* jazz_hands
 * better_errors
 * quiet_errors
 
