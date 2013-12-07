@@ -8,4 +8,9 @@ module ApplicationHelper
 			"#{base_title} | #{page_title}"
 		end
 	end
+	
+	# Returns a pretty date
+	def nice_date_form(the_date)
+  	return the_date ? the_date.strftime('%b %d, %Y') : ''
+	end
 end
