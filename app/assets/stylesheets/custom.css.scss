@@ -1,4 +1,11 @@
+@import "bootstrap_variables";
 @import "bootstrap";
+
+/* Universal Styles */
+html {
+	// Turns on scroll bar to correct horizontal jumping
+  overflow-y: scroll;
+}
 
 body {
   padding-top: 50px;
@@ -6,10 +13,6 @@ body {
 
 .container {
   width: 1000px;
-}
-
-.text-muted {
-  color: #999999;
 }
 
 /* footer */
