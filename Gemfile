@@ -29,6 +29,7 @@ group :development do
   gem 'jazz_hands'
   gem 'better_errors'
   gem 'quiet_assets'
+  #gem 'meta_request' #uncomment if using Chrome extension RailsPanel
 end
 
 group :test do
