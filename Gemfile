@@ -14,6 +14,7 @@ gem 'simple_form'
 gem 'devise'
 gem 'bcrypt-ruby', git: 'https://github.com/codahale/bcrypt-ruby.git', :require => 'bcrypt'
 gem 'decent_exposure'
+gem 'acts_as_taggable_on'
 
 group :doc do
   gem 'sdoc', require: false
